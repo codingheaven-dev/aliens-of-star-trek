@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Star Trek: The Original Series",
+    "shortCode": "TOS",
+    "seriesType": "TV Series",
+    "startYear": 1966,
+    "endYear": 1969,
+    "numEpisodes": 79
+  },
+  {
+    "title": "Star Trek: The Animated Series",
+    "shortCode": "TAS",
+    "seriesType": "TV Series",
+    "startYear": 1973,
+    "endYear": 1974,
+    "numEpisodes": 22
+  },
+  {
+    "title": "Star Trek: The Next Generation",
+    "shortCode": "TNG",
+    "seriesType": "TV Series",
+    "startYear": 1987,
+    "endYear": 1994,
+    "numEpisodes": 178
+  },
+  {
+    "title": "Star Trek: Deep Space Nine",
+    "shortCode": "DS9",
+    "seriesType": "TV Series",
+    "startYear": 1993,
+    "endYear": 1999,
+    "numEpisodes": 176
+  },
+  {
+    "title": "Star Trek: Voyager",
+    "shortCode": "VOY",
+    "seriesType": "TV Series",
+    "startYear": 1995,
+    "endYear": 2001,
+    "numEpisodes": 172
+  },
+  {
+    "title": "Star Trek: Enterprise",
+    "shortCode": "ENT",
+    "seriesType": "TV Series",
+    "startYear": 2001,
+    "endYear": 2005,
+    "numEpisodes": 98
+  },
+  {
+    "title": "Star Trek: Discovery",
+    "shortCode": "DIS",
+    "seriesType": "TV Series",
+    "startYear": 2017,
+    "endYear": null,
+    "numEpisodes": 42
+  },
+  {
+    "title": "Star Trek: Picard",
+    "shortCode": "PIC",
+    "seriesType": "TV Series",
+    "startYear": 2020,
+    "endYear": null,
+    "numEpisodes": 20
+  },
+  {
+    "title": "Star Trek: Movies",
+    "shortCode": "MOV",
+    "seriesType": "Movies",
+    "startYear": 1979,
+    "endYear": null,
+    "numEpisodes": 13
+  }
+]

@@ -1,0 +1,687 @@
+[
+  {
+    "name": "Akritirian",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Andorian",
+    "planet": "Andoria",
+    "series": ["ENT", "TOS", "DS9"]
+  },
+  {
+    "name": "Antican",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Arbazan",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Arcadian",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Argelian",
+    "planet": null,
+    "series": ["TOS", "DS9"]
+  },
+  {
+    "name": "Arkarian",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Axanar",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Bajoran",
+    "planet": "Bajor",
+    "series": ["DS9"]
+  },
+  {
+    "name": "Benzite",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Betazoid",
+    "planet": null,
+    "series": ["TNG", "DS9"]
+  },
+  {
+    "name": "Bolian",
+    "planet": null,
+    "series": ["TNG", "DS9", "VOY"]
+  },
+  {
+    "name": "Borg",
+    "planet": null,
+    "series": ["TNG", "VOY", "ENT"]
+  },
+  {
+    "name": "Bynar",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Caitian",
+    "planet": null,
+    "series": ["TAS", "TNG"]
+  },
+  {
+    "name": "Cardassian",
+    "planet": "Cardassia Prime",
+    "series": ["TNG", "DS9", "VOY"]
+  },
+  {
+    "name": "Changeling",
+    "planet": "Founders' homeworld",
+    "series": ["DS9"]
+  },
+  {
+    "name": "Cygnian",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Deltan",
+    "planet": "Delta IV",
+    "series": ["TMP", "TNG"]
+  },
+  {
+    "name": "Denobulan",
+    "planet": "Denobula",
+    "series": ["ENT"]
+  },
+  {
+    "name": "Douwd",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Dopterian",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Drakonian",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "El-Aurian",
+    "planet": null,
+    "series": ["TNG", "DS9"]
+  },
+  {
+    "name": "Energy being",
+    "planet": null,
+    "series": ["TOS", "TNG", "VOY", "ENT"]
+  },
+  {
+    "name": "Enolian",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Eska",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Gorn",
+    "planet": null,
+    "series": ["TOS", "ENT"]
+  },
+  {
+    "name": "Grazerite",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Grey",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Guinan's species",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Hirogen",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Kazon",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Kelvin timeline Vulcan",
+    "planet": "Vulcan",
+    "series": ["MOV"]
+  },
+  {
+    "name": "Klingon",
+    "planet": "Qo'noS",
+    "series": ["TOS", "TNG", "DS9", "VOY", "ENT", "DSC", "PIC"]
+  },
+  {
+    "name": "Kobali",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Kreetassan",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Ligonian",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Lurian",
+    "planet": null,
+    "series": ["TOS", "TAS", "DS9"]
+  },
+  {
+    "name": "M-113 creature",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Malcorian",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Mari",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Medusan",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Melkotian",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Metron",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Mintakan",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Mizarian",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Monchezkin",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Moreau",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Morn's species",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Mustang",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Myhr'an",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Nacene",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Nausicaan",
+    "planet": null,
+    "series": ["TNG", "DS9", "ENT"]
+  },
+  {
+    "name": "Nazi",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Nekrit Expanse creature",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Nelkarite",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Noonian Soong-type android",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Nyrian",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Ocampa",
+    "planet": "Ocampa",
+    "series": ["VOY"]
+  },
+  {
+    "name": "Orion",
+    "planet": "Orion",
+    "series": ["TOS", "TAS", "TNG", "DS9", "ENT"]
+  },
+  {
+    "name": "Ornithoid",
+    "planet": null,
+    "series": ["TAS"]
+  },
+  {
+    "name": "Osnullus",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Ossarian",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Othan",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Overlooker",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Pakled",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Peliar Zel native",
+    "planet": "Peliar Zel",
+    "series": ["DS9"]
+  },
+  {
+    "name": "Phylosian",
+    "planet": "Phylos",
+    "series": ["TAS"]
+  },
+  {
+    "name": "Pralor",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Preservers",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Prophets",
+    "planet": "Celestial Temple",
+    "series": ["DS9"]
+  },
+  {
+    "name": "Proxima Centauran",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Q",
+    "planet": "Q Continuum",
+    "series": ["TNG", "DS9", "VOY"]
+  },
+  {
+    "name": "Rakhari",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Ramuran",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Rigelian",
+    "planet": "Rigel",
+    "series": ["TOS", "TNG", "DS9", "ENT"]
+  },
+  {
+    "name": "Romulan",
+    "planet": "Romulus",
+    "series": ["TOS", "TNG", "DS9", "ENT", "PIC"]
+  },
+  {
+    "name": "Saltah'na",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Sarpeidon",
+    "planet": null,
+    "series": ["TAS"]
+  },
+  {
+    "name": "Satarran",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Saurian",
+    "planet": "Sauria",
+    "series": ["TOS", "TAS", "TNG", "VOY", "ENT"]
+  },
+  {
+    "name": "Scalosian",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Scythian",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Sheliak",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Sikarian",
+    "planet": "Sikaris",
+    "series": ["VOY"]
+  },
+  {
+    "name": "Silent",
+    "planet": null,
+    "series": ["TAS"]
+  },
+  {
+    "name": "Solari",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Son'a",
+    "planet": null,
+    "series": ["MOV"]
+  },
+  {
+    "name": "Species 8472",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Suliban",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Sulamid",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Suliban cell ship",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Swarm species",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Syrrannite",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Selay",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Skorr",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Sonar",
+    "planet": null,
+    "series": ["TAS"]
+  },
+  {
+    "name": "Sovereign-class ship",
+    "planet": null,
+    "series": ["MOV"]
+  },
+  {
+    "name": "Stakoron",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Sphere Builders",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Suliban Cabal",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Survivors of Sahndara",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Talaxian",
+    "planet": "Talax",
+    "series": ["VOY"]
+  },
+  {
+    "name": "Tamarian",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Tandaran",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Tarchannen",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Tellarite",
+    "planet": "Tellar Prime",
+    "series": ["ENT", "TOS", "MOV"]
+  },
+  {
+    "name": "Terrellian",
+    "planet": null,
+    "series": ["TNG", "DS9"]
+  },
+  {
+    "name": "Thasian",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Tholian",
+    "planet": "Tholia",
+    "series": ["TOS", "ENT", "TAS", "TNG", "DS9"]
+  },
+  {
+    "name": "Tiburonian",
+    "planet": "Tiburon",
+    "series": ["TNG"]
+  },
+  {
+    "name": "Tkon",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Takaran",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Tamplin",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Tanugan",
+    "planet": "Tanuga IV",
+    "series": ["TNG"]
+  },
+  {
+    "name": "Tarmelian",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Taurean",
+    "planet": "Tau Ceti III",
+    "series": ["TAS"]
+  },
+  {
+    "name": "T'Lani",
+    "planet": "T'Lani III",
+    "series": ["DS9"]
+  },
+  {
+    "name": "Tolian",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Tosk",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Traeg",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Trill",
+    "planet": "Trillius Prime",
+    "series": ["TNG", "DS9"]
+  },
+  {
+    "name": "Turei",
+    "planet": null,
+    "series": ["VOY"]
+  },
+  {
+    "name": "Tzenkethi",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "T'Khasi",
+    "planet": null,
+    "series": ["DIS"]
+  },
+  {
+    "name": "Tellarite-Andorian",
+    "planet": null,
+    "series": ["ENT"]
+  },
+  {
+    "name": "Ullian",
+    "planet": "Ullia",
+    "series": ["TNG", "DS9"]
+  },
+  {
+    "name": "Vaal",
+    "planet": null,
+    "series": ["TOS"]
+  },
+  {
+    "name": "Vadian",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Valakian",
+    "planet": "Valakis",
+    "series": ["ENT"]
+  },
+  {
+    "name": "Valethian",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Vegan",
+    "planet": "Vega",
+    "series": ["TAS"]
+  },
+  {
+    "name": "Vorgon",
+    "planet": null,
+    "series": ["TNG"]
+  },
+  {
+    "name": "Vorta",
+    "planet": null,
+    "series": ["DS9"]
+  },
+  {
+    "name": "Wadi",
+    "planet": "Wadi",
+    "series": ["DS9"]
+  },
+  {
+    "name": "Wysanti",
+    "planet": null,
+    "series": ["TNG"]
+  }
+]
