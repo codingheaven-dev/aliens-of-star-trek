@@ -1,13 +1,21 @@
-import { useData } from "../../data";
+import { useAtomValue, useSetAtom } from "jotai";
+import {
+  dataAtom,
+  seriesFilterAtom,
+  toggleSeriesFilterAtom,
+} from "../../data/DataProvider";
 
 function AlienSeries() {
-  const { series, seriesFilter, toggleSeriesFilter } = useData(
-    ({ state: { series, seriesFilter }, actions: { toggleSeriesFilter } }) => ({
-      series,
-      seriesFilter,
-      toggleSeriesFilter,
-    })
-  );
+  // Atomic
+  const { series } = useAtomValue(dataAtom);
+  const seriesFilter = useAtomValue(seriesFilterAtom);
+  const toggleSeriesFilter = useSetAtom(toggleSeriesFilterAtom);
+
+  // // Store
+  // const { series, seriesFilter, toggleSeriesFilter } = useAppContext(() => {
+  //   series, seriesFilter, toggleSeriesFilter;
+  // });
+
   return (
     <div className="filters-checkboxes">
       Show only aliens from

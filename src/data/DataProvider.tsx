@@ -1,45 +1,52 @@
-import { PropsWithChildren, useMemo, useState } from "react";
+import { atom } from "jotai";
 import { AlienRace, Shortcode, View } from "../types";
-import DataContext from "./context";
-import useFilteredAliens from "./useFilteredAliens";
 import useJSON from "./useJSON";
 
-function DataProvider({ children }: PropsWithChildren) {
-  const [view, setView] = useState<View>("aliens");
-  const { series, aliens } = useJSON();
-  const [currentSeries, setCurrentSeries] = useState<Shortcode | null>(null);
-  const [currentAlien, setCurrentAlien] = useState<AlienRace["name"] | null>(
-    null
-  );
-  const {
-    filteredAliens,
-    seriesFilter,
-    alienQuery,
-    toggleSeriesFilter,
-    setAlienQuery,
-  } = useFilteredAliens(aliens);
+export const viewAtom = atom<View>("aliens");
 
-  const value = {
-    state: {
-      series,
-      aliens,
-      view: useMemo(() => view, [view]),
-      currentSeries,
-      currentAlien,
-      filteredAliens,
-      seriesFilter,
-      alienQuery,
-    },
-    actions: {
-      setView,
-      setCurrentSeries,
-      setCurrentAlien,
-      toggleSeriesFilter,
-      setAlienQuery,
-    },
-  };
+export const alienQueryAtom = atom<string | null>("alienQuery");
 
-  return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
-}
+export const currentSeriesAtom = atom<Shortcode | null>(null);
 
-export default DataProvider;
+export const currentAlienAtom = atom<AlienRace["name"] | null>(null);
+
+export const dataAtom = atom(() => useJSON());
+
+export const seriesFilterAtom = atom<Shortcode[]>([]);
+
+export const toggleSeriesFilterAtom = atom(
+  null, // it's a convention to pass `null` for the first argument
+  (get, set, shortcode: Shortcode) => {
+    const oldFilter = get(seriesFilterAtom);
+    const newValue = oldFilter.includes(shortcode)
+      ? oldFilter.filter((s) => s !== shortcode)
+      : oldFilter.concat([shortcode]);
+
+    set(seriesFilterAtom, newValue);
+  }
+);
+
+export const filteredAliensAtom = atom((get) => {
+  const seriesFilter = get(seriesFilterAtom);
+  const { aliens } = get(dataAtom);
+  const alienQuery = get(alienQueryAtom);
+
+  if (seriesFilter.length === 0 && alienQuery === null) {
+    return aliens;
+  }
+  return aliens
+    .filter((a) =>
+      seriesFilter.length
+        ? seriesFilter.every((shortCode) =>
+            a.series.some((s) => s.shortCode === shortCode)
+          )
+        : true
+    )
+    .filter((a) =>
+      alienQuery != null
+        ? [a.name, a.planet].some((txt) =>
+            txt?.toLowerCase().includes(alienQuery)
+          )
+        : true
+    );
+});
