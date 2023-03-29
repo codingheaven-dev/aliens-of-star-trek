@@ -1,10 +1,9 @@
-import { useData } from "../data";
+import { useAtom } from "jotai";
+import { viewAtom } from "../data/DataProvider";
 
 function Menu() {
-  const { view, setView } = useData(
-    ({ state: { view }, actions: { setView } }) => ({ view, setView }),
-    true
-  );
+  const [view, setView] = useAtom(viewAtom);
+
   const buttons = [
     ["aliens", "Aliens"],
     ["series", "Series"],

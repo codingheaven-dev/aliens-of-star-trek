@@ -3,10 +3,10 @@ import AlienSeries from "./AlienSeries";
 
 function AlienFilters() {
   return (
-    <form className="filters">
+    <div className="filters">
       <AlienQuery />
       <AlienSeries />{" "}
-    </form>
+    </div>
   );
 }
 

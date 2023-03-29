@@ -1,14 +1,9 @@
+import { useAtom } from "jotai";
 import { ChangeEvent, memo, useCallback } from "react";
-import { useData } from "../../data";
+import { alienQueryAtom } from "../../data/DataProvider";
 
 function AlienQuery() {
-  const { alienQuery, setAlienQuery } = useData(
-    ({ state: { alienQuery }, actions: { setAlienQuery } }) => ({
-      alienQuery,
-      setAlienQuery,
-    }),
-    true
-  );
+  const [alienQuery, setAlienQuery] = useAtom(alienQueryAtom);
 
   const handleChange = useCallback(
     ({ target: { value } }: ChangeEvent<HTMLInputElement>) =>

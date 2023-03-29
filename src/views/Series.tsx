@@ -1,7 +1,8 @@
-import { Row, Table, Header } from "../table";
-import { useData } from "../data";
-import type { Series as SeriesType } from "../types";
+import { useAtom, useAtomValue } from "jotai";
+import { currentSeriesAtom, dataAtom } from "../data/DataProvider";
+import { Header, Row, Table } from "../table";
 import { TableField } from "../table/types";
+import type { Series as SeriesType } from "../types";
 
 function getYearRange({ startYear, endYear }: SeriesType) {
   return endYear ? `${startYear}-${endYear}` : `${startYear}-current`;
@@ -16,14 +17,9 @@ const SERIES_FIELDS: TableField<SeriesType>[] = [
 ];
 
 function Series() {
-  const { currentSeries, series, setCurrentSeries } = useData(
-    ({ state: { series, currentSeries }, actions: { setCurrentSeries } }) => ({
-      currentSeries,
-      series,
-      setCurrentSeries,
-    }),
-    true
-  );
+  const [currentSeries, setCurrentSeries] = useAtom(currentSeriesAtom);
+  const { series } = useAtomValue(dataAtom);
+
   return (
     <Table>
       <Header fields={SERIES_FIELDS} />
